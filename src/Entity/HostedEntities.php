@@ -142,7 +142,7 @@ class HostedEntities
             $context->fromRequest($this->requestStack->getMasterRequest());
         }
 
-        $url = $this->router->generate($route, $parameters, RouterInterface::ABSOLUTE_URL);
+        $url = 'https:'.$this->router->generate($route, $parameters, RouterInterface::NETWORK_PATH);
 
         if (null !== $this->requestStack->getCurrentRequest()) {
             $context->fromRequest($this->requestStack->getCurrentRequest());
