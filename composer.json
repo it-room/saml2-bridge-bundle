@@ -27,14 +27,14 @@
     "ext-openssl": "*",
     "simplesamlphp/saml2": "^4.6.11",
     "symfony/framework-bundle": "^5.4",
-    "symfony/workflow": "^5.2|^6.0"
+    "symfony/workflow": "^5.4"
   },
   "require-dev": {
     "phpunit/phpunit": "^5.7.17",
     "symfony/phpunit-bridge": "^v5.4 || ^6.0",
-    "liip/functional-test-bundle": "^1.7",
+    "liip/functional-test-bundle": "^4.11",
     "twig/twig": "^2.12|^3.0",
-    "satooshi/php-coveralls": "^2.0.0"
+    "satooshi/php-coveralls": "^2.2.0"
   },
   "autoload": {
     "psr-4": {
